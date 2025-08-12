@@ -124,7 +124,7 @@ const CharacterSelector = ({ onClose }) => {
   const fetchCharacterOptions = async () => {
     try {
       // ✅ FIXED: Correct backend URL
-      const backendUrl = server || "https://ai-character-chatbot-2.onrender.com";
+      const backendUrl = server || "https://chatserver-mjhj.onrender.com";
       const token = localStorage.getItem("token");
       
       console.log('🎭 Fetching character options from:', `${backendUrl}/api/characters/options`);
@@ -530,5 +530,6 @@ const CharacterSelector = ({ onClose }) => {
     </div>
   );
 };
+
 
 export default CharacterSelector;
