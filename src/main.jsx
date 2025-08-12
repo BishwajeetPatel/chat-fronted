@@ -36,4 +36,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 // Create a .env file in your frontend root with:
 /*
 VITE_SERVER_URL=https://ai-character-chatbot-2.onrender.com
+
 */
