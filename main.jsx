@@ -4,6 +4,7 @@
 export const server = import.meta.env.VITE_SERVER_URL || 
                       import.meta.env.REACT_APP_SERVER_URL || 
                       "https://chatserver-mjhj.onrender.com";
+                    
 
 console.log('🔗 Frontend connecting to server:', server);
 
@@ -36,4 +37,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 // Create a .env file in your frontend root with:
 /*
 VITE_SERVER_URL=https://ai-character-chatbot-2.onrender.com
+
 */
